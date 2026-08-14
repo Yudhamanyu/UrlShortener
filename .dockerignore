@@ -1,0 +1,8 @@
+frontend/
+target/
+.git/
+.idea/
+.vscode/
+*.md
+docker-compose.yml
+docker-compose.override.yml
