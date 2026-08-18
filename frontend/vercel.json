@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/analytics/:shortCode",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/result/:shortCode",
+      "destination": "/index.html"
+    },
+    {
       "source": "/:shortCode",
       "destination": "https://urlshortener-production-f77f.up.railway.app/:shortCode"
     }
