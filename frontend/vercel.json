@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/:shortCode",
+      "destination": "https://urlshortener-production-f77f.up.railway.app/:shortCode"
+    }
   ]
 }
